@@ -1,8 +1,11 @@
-import Header from "../component/Header";
+
 function Home () {
     return (
-        <div>
-            <Header></Header>
+        <div className="summary">
+            <h1>
+                I am Rene Rodriguez.
+            </h1>
+            <h2>I am a Fullstack Developer</h2>
         </div>
     )
 };

@@ -5,10 +5,12 @@ import Home from './pages/Home'; // Assuming you have a Home component
 import About from './pages/About'; // Assuming you have an About component
 import Contact from './pages/Contact';
 import Works from './pages/Works';
+import Layout from './layout';
 
 function App() {
  return (
     <Router>
+      <Layout>
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/contact" element={<Contact />} />
@@ -16,6 +18,7 @@ function App() {
         <Route path="/about" element={<About />} />
         {/* Add more routes as needed */}
       </Routes>
+      </Layout>
     </Router>
  );
 }

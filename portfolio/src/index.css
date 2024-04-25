@@ -13,7 +13,6 @@
     color: var(--primary-color)
 }
 header {
-  background-color: var(--color-bg);
   display: flex;
   justify-content: center;
 }
@@ -23,9 +22,35 @@ nav {
   justify-content: space-evenly;
   align-items: end;
   padding-bottom: 4px;
-  width: 50%;
+  width: 75%;
 }
 nav a{
   text-decoration: none;
   color: var(--color-text)
+}
+body{
+  background-image: url('../public/background.jpg');
+  background-size: cover;
+}
+main {
+  /* background-image: url('../public/background.jpg');
+  background-size: cover; */
+  color: var(--color-text);
+  display: flex;
+  justify-content: center;
+  height:1000px;
+  padding-top: 25%;
+}
+main h1 {
+  font-size: 100px;
+  font-weight:bolder;
+}
+main h2{
+  font-size: 25px;
+}
+.summary{
+  display: inline-flex;
+    flex-wrap: wrap;
+    width: 75%;
+    justify-content: center;
 }
