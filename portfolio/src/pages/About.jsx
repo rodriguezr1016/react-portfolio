@@ -1,6 +1,14 @@
 function About () {
     return (
-        <div>
+        <div className="about">
+            <div className="space">
+            </div>
+            <div className="aboutSummary">
+            My name is Rene Rodriguez
+            </div>
+            <div className="skills">
+                Skills
+            </div>
 
         </div>
     )
