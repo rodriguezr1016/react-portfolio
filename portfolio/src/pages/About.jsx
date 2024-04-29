@@ -31,6 +31,7 @@ function About () {
                     <img src="/mysql.png" alt="" />
                     <img src="/vite.png" alt="" />
                     <img src="/nodejs.png" alt="" />
+                    <img src="/express.png" alt="" />
                 </div>
             </div>
 

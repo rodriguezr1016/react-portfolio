@@ -81,6 +81,13 @@ main h2{
 .skills {
   width:75%;
 }
+footer, footer a{
+  font-size: 10px;
+  display: flex;
+  color: rgb(200, 200, 200);
+  text-decoration: none;
+  gap:5px
+}
 /*Socials*/
 .socials {
   width: 50%;
@@ -279,3 +286,31 @@ main h2{
   text-decoration: none;
   color: var(--color-text)
 }
+/*Email*/
+form {
+  width: 300px;
+  margin: 0 auto;
+ }
+ 
+ input[type="text"], input[type="email"], textarea {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+ }
+ 
+ input[type="submit"] {
+  background-color: var(--secondary-color);
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+ }
+ 
+ input[type="submit"]:hover {
+  opacity: 0.8;
+  transition: 0.3s ease;
+
+ }
