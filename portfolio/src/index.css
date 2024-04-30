@@ -4,6 +4,7 @@
   margin:0;
   padding:0;
   font-family: "Outfit", Arial, Helvetica, sans-serif;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
 }
 
 .App {
@@ -42,7 +43,7 @@ main {
   color: var(--color-text);
   display: flex;
   justify-content: center;
-  height:1000px;
+  height:100%;
   padding-top: 25%;
 }
 main h1 {
@@ -81,12 +82,35 @@ main h2{
 .skills {
   width:75%;
 }
+footer {
+  display: flex;
+  align-items: end;
+  padding-top: 100px;
+}
 footer, footer a{
   font-size: 10px;
   display: flex;
   color: rgb(200, 200, 200);
   text-decoration: none;
   gap:5px
+}
+/* CSS */
+.line {
+  padding: 0 10px;
+  height: 2px; /* Adjust the thickness as needed */
+  width:50%;
+  background-color: white;
+  margin: 30px 0; /* Adjust the spacing above and below the line as needed */
+ }
+.contact{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.contact h2 {
+  text-align: center;
+  width:75%;
+  margin-bottom: 15px;
 }
 /*Socials*/
 .socials {

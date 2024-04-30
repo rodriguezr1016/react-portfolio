@@ -5,8 +5,8 @@ function Header () {
             <nav>
                <Link to={'/'}>Home</Link>
                <Link to={'/about'}>About</Link>
+               <Link to={'/works'}>Projects</Link>
                <Link to={'/contact'}>Contact</Link>
-               <Link to={'/works'}>Works</Link>
             </nav>
         </header>
     )

@@ -12,9 +12,9 @@ function About () {
                     About Me
                 </h1>
                 <h2>
-                 I am a fullstack developer based out of central California. What I lack in experience I make up for in my work ethic and my ability to learn and adapt to new technologies rather quickly. Although I am new to web development, I am more than ready to put my skills to the test.
+                 I am a fullstack developer based out of central California. What I lack in experience I make up for in my work ethic and my ability to learn and adapt to new technologies rather quickly. I am an analytical thinker with a lot of creativity who is always willing to learn something new. Although I am new to web development, I truly believe I am ready to put my skills to the test.
                 </h2>
-                {/* <FlipCard photos={photos}></FlipCard> */}
+                <div class="line"></div>
                 <h2>
                 Aside from web development I enjoy being outside, taking trips to the beach, going to the gym, and spending time with my wife. I am also very passionate about music with some of my favorites being Tyler the Creator and Kendrick Lamar
                 </h2>

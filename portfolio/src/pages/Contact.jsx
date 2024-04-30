@@ -22,6 +22,8 @@ export default function Contact () {
   };
 
   return (
+    <div className='contact'>
+        <h2>Feel free to email me with any questions</h2>
     <form ref={form} onSubmit={sendEmail}>
       <label>Name</label>
       <input type="text" name="user_name" />
@@ -31,5 +33,6 @@ export default function Contact () {
       <textarea name="message" />
       <input type="submit" value="Send" />
     </form>
+    </div>
   );
 };
