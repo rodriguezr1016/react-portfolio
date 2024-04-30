@@ -295,6 +295,7 @@ input {
   display: -webkit-box;
   -webkit-line-clamp: 1;
   line-clamp: 1;
+  padding-bottom: 5px;
 }
 
 .card-des {
