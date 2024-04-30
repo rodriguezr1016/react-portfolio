@@ -112,6 +112,9 @@ footer, footer a{
   width:75%;
   margin-bottom: 15px;
 }
+input {
+  text-shadow: none;
+}
 /*Socials*/
 .socials {
   width: 50%;
