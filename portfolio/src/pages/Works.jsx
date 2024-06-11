@@ -29,6 +29,17 @@ function Works () {
   </p>
 </div>
 </a>
+<a href="https://ai-generated-images-eosin.vercel.app/">
+            <div class="card">
+  <div class="card-image-container">
+    <img src="/ai-img-gen.png" alt="" />
+  </div>
+  <p class="card-title"> AI Image Generator</p>
+  <p class="card-des">
+    A MERN stack web application that handles user logins, posts, likes, and utilizes OpenAI's API to generate images
+  </p>
+</div>
+</a>
 <a href="https://github.com/rodriguezr1016/employee-tracker">
             <div class="card">
   <div class="card-image-container">
