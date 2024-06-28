@@ -5,7 +5,7 @@ function Home () {
             <h1>
                 I am Rene Rodriguez
             </h1>
-            <h2>I am a Fullstack Developer who is rather new to Software Development, but have still learned a lot from my 2 years of Development and am more than ready to learn more.</h2>
+            <h2>I am a Fullstack Developer who is rather new to Software Development, but have still learned a lot from my 3 years of Development and am more than ready to learn more.</h2>
             <div className="socials">
             <div class="socialsCard">
   <a class="socialContainer containerOne" href="https://www.instagram.com/reneerooster1016">
