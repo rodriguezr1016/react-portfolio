@@ -40,6 +40,17 @@ function Works () {
   </p>
 </div>
 </a>
+<a href="https://classic-tree.vercel.app/">
+            <div class="card">
+  <div class="card-image-container">
+    <img src="/classic.png" alt="" />
+  </div>
+  <p class="card-title">Classic Tree Service</p>
+  <p class="card-des">
+    A website built using react/vite that advertises for a company called Classic Tree Service. Allows for users to email or call to get a free quote on possible jobs.
+  </p>
+</div>
+</a>
 <a href="https://github.com/rodriguezr1016/employee-tracker">
             <div class="card">
   <div class="card-image-container">
