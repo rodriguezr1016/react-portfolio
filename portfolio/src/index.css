@@ -49,6 +49,7 @@ main {
 main h1 {
   font-size: 84px;
   font-weight:bolder;
+  margin: 50px 0px;
 }
 main h2{
   font-size: 25px;
@@ -78,6 +79,7 @@ main h2{
 .about h1 {
   font-size: 84px;
   margin-bottom: 40px;
+  width:100%;
 }
 .skills {
   width:75%;
